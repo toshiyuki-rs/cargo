@@ -14,7 +14,7 @@ name = "crates_io"
 path = "lib.rs"
 
 [dependencies]
-curl = "0.4"
+curl = { git = "https://github.com/toshiyuki-rs/curl-rust.git", version = "0.4" }
 anyhow = "1.0.0"
 percent-encoding = "2.0"
 serde = { version = "1.0", features = ['derive'] }
